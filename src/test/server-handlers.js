@@ -13,6 +13,7 @@ const handlers = [
           ctx.json({message: 'password required'}),
         )
       }
+      // comment
       if (!req.body.username) {
         return res(
           ctx.delay(delay),
